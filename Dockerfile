@@ -13,4 +13,4 @@ RUN pip install diffusers transformers accelerate scipy safetensors
 
 COPY . .
 
-CMD ["py", "./main.py"]
+ENTRYPOINT ["py", "./main.py"]
